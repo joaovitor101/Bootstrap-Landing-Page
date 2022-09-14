@@ -18,7 +18,7 @@
 
   <nav class="navbar col-12 m-auto navbar-expand-lg navbar-dark bg-dark" style="z-index: 999">
     <div class="container-fluid col-11 m-auto">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">JVK</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,60 +26,68 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#inicio">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#mainP">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#curso">Curso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pós</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Mercado
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Empregabilidade</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Áreas</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#">Vídeo</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
     </div>
   </nav>
   <!---->
-  <div class="container">
+  <div class="container" id="inicio">
     <div class="row m-0 p-0">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-8 p-4">
+      <div class="col-11 col-sm-12 col-md-12 col-lg-8 p-4">
         <img class="img-fluid m-3" src="imgs/header.jpg">
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-5">
-        <h4 class="display-6">Café e Tranquilidade</h4>
+        <h4 class="display-6">Física</h4>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit quos corporis temporibus, adipisci,
-          laudantium eum voluptate corrupti hic cum facere aspernatur, rem neque culpa ullam quod nesciunt voluptatibus
-          recusandae?</p>
+        <p>A Física é o campo da ciência que investiga os fenômenos e as estruturas mais fundamentais da natureza,
+          procurando sua compreensão e descrição em termos de leis mais gerais possíveis.</p>
+        <p>No processo de compreensão da
+          natureza, as investigações físicas têm possibilitado o domínio de fenômenos naturais bem como a criação de
+          materiais e sistemas artificiais que têm contribuído decisivamente para o avanço de outros campos da ciência e
+          para o progresso tecnológico da humanidade.</p>
       </div>
     </div>
   </div>
 
-  <div class="bg-dark pb-5">
+  <div class="bg-dark pb-5" id="mainP">
     <div class="container">
       <div class="row m-0 p-0">
         <h3 class="text-white display-6 mt-5">Perfil</h3>
 
-        <div class="col-12 col-sm-12 col-md-12 col-lg-3 p-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-4">
           <img class="img-fluid m-3" src="imgs/img1.png" id="img1">
         </div>
-        <div class="col-10 col-sm-10 col-md-15 col-lg-8 p-1">
+        <div class="col-20 col-sm-10 col-md-10 col-lg-8">
           <h4 class="display-6 p-4" id="cor">Disciplina</h4>
           <hr>
           <p id="perfil">O físico, seja qual for sua área de atuação, deve ser um profissional que, apoiado em
@@ -97,17 +105,18 @@
     </div>
   </div>
 
-  <div class="col-12 pb-5">
+  <div class="col-12 pb-5" id="curso">
     <div class="container">
       <div class="row">
         <h3 class="text-center display-6 mt-5">Curso</h3>
         <div class="card-group" id="cards">
           <div class="card m-2 bg-dark align-items-center pt-4">
             <img src="imgs/clock.png" class="card-img-top w-25" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text-center">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+            <div class="card-body mt-3">
+              <h5 class="card-title">Tempo</h5>
+              <p class="card-text">Tempo mínimo e máximo
+                de intregalização de 3 a 6
+                anos, respectivamente.</p>
             </div>
             <!--
             <div class="card-footer">
@@ -117,9 +126,11 @@
           </div>
           <div class="card m-2 bg-dark align-items-center pt-4">
             <img src="imgs/nota.png" class="card-img-top w-25" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <div class="card-body mt-3">
+              <h5 class="card-title">Nota de Corte Média Sisu</h5>
+              <p class="card-text mt-5">UFERSA - 351.54 (Menor Nota)</p>
+              <p class="card-text">FÍSICA - 568.79 (Nota Média)</p>
+              <p class="card-text">IFCE - 744.24 (Maior Nota)</p>
             </div>
             <!--
             <div class="card-footer">
@@ -129,10 +140,11 @@
           </div>
           <div class="card m-2 bg-dark align-items-center pt-4">
             <img src="imgs/form.png" class="card-img-top w-25" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
+            <div class="card-body mt-3">
+              <h5 class="card-title">Formação</h5>
+              <p class="card-text mt-5">Bacharelado</p>
+              <p class="card-text">Licenciatura</p>
+              <p class="card-text">Pós-Graduação</p>
             </div>
             <!--
             <div class="card-footer">
