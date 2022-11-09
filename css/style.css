@@ -100,14 +100,19 @@ li{
 
 #cor{
     color: white;
+
 }
 #perfil{
     color: white;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: justify;
 }
-
+#bac{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
 #cards{
     color: white;
 }
@@ -381,5 +386,9 @@ input.submitbutton.ripplelink {
     margin-left: 5px;
     color: #ffffff;
 }
-
+.amarelo{
+    color:#ffff33;
+    font-size: 2em;
+    
+}
 
